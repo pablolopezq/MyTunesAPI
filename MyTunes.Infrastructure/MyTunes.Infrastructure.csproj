@@ -12,9 +12,4 @@
 		<ProjectReference Include="../MyTunes.Core/MyTunes.Core.csproj" />
 	</ItemGroup>
 
-	<ItemGroup>
-	  <Folder Include="Configurations\" />
-	  <Folder Include="Repositories\" />
-	</ItemGroup>
-
 </Project>

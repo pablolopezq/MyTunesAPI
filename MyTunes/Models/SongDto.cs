@@ -1,11 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Text;
+using System.Linq;
+using System.Threading.Tasks;
 
-namespace MyTunes.Core.Entities
+namespace MyTunes.Models
 {
-    public class Song : BaseEntity
+    public class SongDto
     {
+        public int Id { get; set; }
         public string Name { get; set; }
 
         public string Artist { get; set; }
@@ -17,7 +19,5 @@ namespace MyTunes.Core.Entities
         public int Rating { get; set; }
 
         public int AlbumId { get; set; }
-
-        public bool Purchased { get; set; }
     }
 }
